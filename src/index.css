@@ -16,6 +16,27 @@
   
 }
 
+.cantidad-contenedor {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 166, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 25px;
+  top: 22px;
+}
+
+.cantidad {
+
+  font-size: 15px;
+
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
 .carrito #carrito {
   display: none;
   position: absolute;
