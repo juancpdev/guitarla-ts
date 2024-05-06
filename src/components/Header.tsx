@@ -15,7 +15,7 @@ export default function Header({cart, dispatch} : HeaderProps ) {
 
     return (
         <>
-            <header className="py-5 header">
+            <header className="py-10 header">
                 <div className="container-xl">
                     <div className="row justify-content-center justify-content-md-between">
                         <div className="col-8 col-md-3">

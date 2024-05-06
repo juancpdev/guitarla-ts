@@ -70,7 +70,6 @@ export const cartReducer = (
         }
     }
     if(action.type === "increase-quantity") {
-console.log("desde reducer");
 
         const cart = state.cart.map((item) => {
             if (item.id === action.payload.id && item.quantity < MAX_ITEMS) {
